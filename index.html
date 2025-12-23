@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>七福芋｜大島生まれの幻のサツマイモ</title>
+  <meta name="description" content="愛媛・新居浜市 大島で育つ希少なサツマイモ『七福芋』。特徴・おいしさの理由・おすすめの食べ方・取り組みを、わかりやすく紹介します。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- フォントはお好みで変更OK -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- 背景アニメ（全ページ共通） -->
+  <div class="bgFX" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+
+    <!-- 粒（お好みで数を増やしてOK） -->
+    <span class="p p1"></span><span class="p p2"></span><span class="p p3"></span>
+    <span class="p p4"></span><span class="p p5"></span><span class="p p6"></span>
+    <span class="p p7"></span><span class="p p8"></span><span class="p p9"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="七福芋トップへ">
+        <span class="brand__mark">七</span>
+        <span class="brand__text">
+          <span class="brand__name">七福芋</span>
+          <span class="brand__sub">Shichifuku-imo</span>
+        </span>
+      </a>
+
+      <button class="menuBtn" id="menuBtn" aria-controls="nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#about">七福芋とは</a>
+        <a href="#features">特徴</a>
+        <a href="#taste">おいしさの理由</a>
+        <a href="#howto">食べ方</a>
+        <a href="#story">大島と私たち</a>
+        <a class="nav__cta" href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="badge">愛媛・新居浜市 大島で育つ希少なサツマイモ</p>
+          <h1 class="hero__title">
+            島の恵みを、<br />
+            ひと口のしあわせへ。<br />
+            <span class="accent">七福芋</span>
+          </h1>
+          <p class="hero__lead">
+            全国でも限られた地域でしか栽培されない、特別なサツマイモ。<br>
+            ねっとり食感とやさしい甘さで、加工にも、焼き芋にも。
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#features">特徴を見る</a>
+            <a class="btn btn--ghost" href="#howto">おすすめの食べ方</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <div class="stat__num">希少</div>
+              <div class="stat__label">限られた産地</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">ねっとり</div>
+              <div class="stat__label">食感が魅力</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">万能</div>
+              <div class="stat__label">焼き・蒸し・加工</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="photoCard">
+            <!-- ここを七福芋の写真に差し替え -->
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNeBdSkW85Xv3bvnhRuSsmr2hhvHcuo5ZrTjPBv2GhqwmIwEAQ31Sj8iF1g34bhFla9Lo7g7j3gDK-oxEbN8zD3DUmQMbCZjRJtvzWdYtiKwCp-2CqVkcD9Eni7ai7cjWOvypDrx0Cgdelt_G5mK73FJg=w1778-h1334-s-no-gm?authuser=0"
+                 alt="サツマイモのイメージ写真" />
+            <div class="photoCard__cap">
+              <p class="photoCard__title">“幻”と呼ばれる理由</p>
+              <p class="photoCard__text">育つ場所・人・環境がそろって、はじめて生まれる味。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scrollHint" href="#about" aria-label="下へスクロール">Scroll</a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>七福芋とは</h2>
+          <p>島の風土と手仕事が育てる、特別なサツマイモ。</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>名前の由来</h3>
+            <p>
+              七福芋は「七福」という品種のサツマイモで、地域で大切に受け継がれてきたサツマイモです。<br>
+              1900年頃、久保田勇次郎氏がアメリカから日本に導入したことで広がりました。
+            </p>
+            <ul class="list">
+              <li>「七福」の名前の由来</li>
+              (1)風土を選ばず作付けできる(2)作りやすく不作が少ない(3)貯蔵性◎<br>
+              (4)食味が良い(5)イタリアから(6)アメリカに伝わり、さらに(7)日本に伝来した。
+            </ul>
+          </div>
+
+          <div class="card card--soft">
+            <h3>こんな人におすすめ</h3>
+            <div class="chips">
+              <span class="chip">焼き芋が好き</span>
+              <span class="chip">ねっとり食感が好き</span>
+              <span class="chip">地域の食材を応援したい</span>
+              <span class="chip">加工品づくりに使いたい</span>
+            </div>
+            <p class="muted">
+              <a href="https://shitifukuimo.co.jp/">七福芋本舗</a>や<a href="https://be-ame.co.jp/">別子飴本舗</a>でも加工品が販売されていますので、ぜひ調べてみてください！
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section section--alt" id="features">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>特徴</h2>
+          <p>七福芋が他の品種とどう違うのかを紹介します！</p>
+        </div>
+
+        <div class="cards3">
+          <article class="feature">
+            <div class="feature__icon">🍠</div>
+            <h3>ねっとり食感</h3>
+            <p>口当たりがなめらかで、しっとり濃厚。焼き芋で特に魅力が引き立ちます。</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon">🔥</div>
+            <h3>加熱で甘さが伸びる</h3>
+            <p>低温〜中温でじっくり加熱すると、甘さが際立ちやすいタイプです。</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon">🧁</div>
+            <h3>加工に強い</h3>
+            <p>イモ事態に雑味がなく、あん・焼き菓子・ドーナツなど幅広く活躍。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Taste -->
+    <section class="section" id="taste">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>おいしさの理由</h2>
+          <p>「なぜ甘い？」「なぜ食感が良い？」を説明します。</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step">
+            <div class="step__num">01</div>
+            <div class="step__body">
+              <h3>育つ環境</h3>
+              <p>海風・日照・土の条件など、産地ならではの環境が味の土台になります。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num">02</div>
+            <div class="step__body">
+              <h3>収穫後の変化</h3>
+              <p>貯蔵によってでんぷんが糖へ変わり、甘さが増しやすくなります。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num">03</div>
+            <div class="step__body">
+              <h3>加熱のコツ</h3>
+              <p>じっくり火を入れるほど甘さが引き出されやすい。焼き芋・蒸し芋に相性◎。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>先生向けメモ：</strong>
+          ここは「授業・研究内容（例：耕土、貯蔵条件、歩留まり改善、糖度測定）」の要点を入れると、説得力が跳ね上がります。
+        </div>
+      </div>
+    </section>
+
+    <!-- How to -->
+    <section class="section section--alt" id="howto">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>おすすめの食べ方</h2>
+          <p>家庭でも、イベントでも。シーン別に。</p>
+        </div>
+
+        <div class="howto">
+          <a class="howtoLink" href="yakiimo.html">
+          <article class="howtoCard yakiimo">
+            <h3>焼き芋</h3>
+            <p class="muted">ねっとり系を狙うなら、低温→仕上げで。</p>
+            <ol>
+              <li>160℃前後でじっくり（45〜60分目安）</li>
+              <li>竹串がスッと通ればOK</li>
+              <li>仕上げに少し温度を上げると香りUP</li>
+            </ol>
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczOHnZ3c5mFlCQFe3qPTUrMlY6Tx8aW9ZyQR-UGAkgXwueOkGqu3Kx25QbmQIdC26qfcLPgqwTpPofhiczGj_3Hnn2PaHsSzytErwzmM_BfD6clvUHJrDC1tD8dSMBMD5JE1vPrZAKFvGu0yIhmlCAq_DQ=w1778-h1334-s-no-gm?authuser=0" alt="焼き芋">
+          </article>
+          </a>
+
+          <a class="howtoLink" href="mochitto.html">
+          <article class="howtoCard mochitto">
+            <h3>モチットアン</h3>
+            <p class="muted">別子飴本舗と共同開発！</p>
+            <ol>
+              <li>七福芋のペーストと具材を混ぜたアンをパン生地で包む</li>
+              <li>油で揚げる</li>
+              <li>チョコレートでコーティングする</li>
+            </ol>
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczOyubbThOJXt6Zz0OeWrXQdSfp2IK7RIUsyzu1bG9XJCwJpCzdfo8VPXtloGVW0H_U3K8jMtFtJ7b_-Xtq9fYcLZFWJTLY54RwP39yfwfaSDQ8nTiPW1NauPzndKVzaAgMHq-tcanXQT_saKUPeslCBdg=w1778-h1334-s-no-gm?authuser=0" alt="モチットアン">
+          </article>
+          </a>
+
+          <a class="howtoLink" href="coron.html">
+          <article class="howtoCard coron">
+            <h3>七福芋コロン</h3>
+            <p class="muted">生徒考案のスイーツ</p>
+            <ol>
+              <li>蒸した七福芋を熱いうちに皮をむきつぶす</li>
+              <li>具材を入れて一口サイズに丸め、オーブンで15分焼く</li>
+              <li>好きなトッピングをまぶす</li>
+            </ol>
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNRj7dAtNgwF60QhH4EdnOj_Zd6XzuYE3KqvF_ok5GMh0ivKWh3zy9e2K3nJOEIvuG__TUChq8uOCU3CKt8sM79bj8963quD-Qq7e_Cf4qYplNt6nIkb7L5L8iF36dU9le9-SpBHN80Ct-3r-irTAfuww=w1778-h1334-s-no-gm?authuser=0" alt="七福芋コロン">
+          </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="section" id="story">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>大島と、わたしたちの取り組み</h2>
+          <p>栽培・商品開発・発信まで。地域とつくるプロジェクト。</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>栽培研究</h3>
+            <p>
+              耕土の深さ、定植本数、貯蔵条件、調整（歩留まり）など、
+              データを取りながら改善を進めています。
+            </p>
+            <div class="mini">
+              <div class="mini__k">私たちの研究内容をまとめています。ご覧ください。</div>
+              <div class="mini__v"><a href="https://drive.google.com/file/d/1eOdGuRWI3Lw5Tkh6v3aYrEOkw_xiEEMR/view?usp=sharing">こちらをクリック</a></div>
+            </div>
+          </div>
+
+          <div class="card card--soft">
+            <h3>商品開発・認知度向上</h3>
+            <p>
+              地域企業やイベントと連携し、七福芋の魅力が伝わる加工品や展示を企画。
+              「知ってもらう」ことも大切な研究です。
+            </p>
+            <div class="mini">
+              <div class="mini__k">ザ・芋フェスでの人気投票で１位になりました！</div>
+              <div class="mini__v"><img src="https://lh3.googleusercontent.com/pw/AP1GczP9I0VKDT8bYOGOIz26i8JH5IXPoY60Oi7tZ4b-3GVFOJjob21ohKyGVdI2Ld1wQYKbo6OnwIB5X6zTYQ5A8687ZXUVa6iTySyw1iSknpO6DwCKUB1qTaFEhSDC99n8EK1v6hU7vIQSOAXjPLyLEWvawg=w1784-h1338-s-no-gm?authuser=0" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczOixNl7o_-vJhKvnPdoFAFxrZzOhmCsZGt71uhvIOl30sA_4oX4QjM_yZTOtzBRYUZxJh1eRtd8Ly3TB633qppFHJJpXcqdIpE6MJPant1_cLVYF3w3tWOwMCowk9WSJuATRYz_aQOPLmEIVoSG8q8lcQ=w1778-h1334-s-no-gm?authuser=0" alt="販売">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczOR0dCdsCGTAb05eGNWV4BNeFTSJ_dhKxJhqJls0XyqhxbdsKV1EaY0HpRcvzmAlqKggYsc4J8drbUosgCE2lVedrlhhEHllDT9Sgj0xXq1uqfhfVROaenjh-vgmrALVN9A0q4OaeS-_O0Xhcubn8qPng=w1778-h1334-s-no-gm?authuser=0" alt="収穫">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczNwTndeKx--CkKTxgNhKCwty7KeAuZYqCypTPHsIVV7hEKOhMVkhj8sVrgEJG_XQ9RfxyVs-Z5v0FdMjRU3nJOnMrJrIwptcgYJVF18-KsE7-hSgitSZOW75ndgSPDl4dhD-kUnfPXERVeuC6pyqtXtyA=w1778-h1334-s-no-gm?authuser=0" alt="聞き取り調査">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="contactBox">
+          <div>
+            <h2>お問い合わせ</h2>
+            <p class="muted">
+              取材・販売・連携のご相談などはこちら。<br>
+              学校プロジェクトの場合は「担当：〇〇」などを追加してください。
+            </p>
+
+            <div class="contactGrid">
+              <div class="contactItem">
+                <div class="contactItem__k">Email</div>
+                <div class="contactItem__v"><a href="mailto:example@example.com">example@example.com</a></div>
+              </div>
+              <div class="contactItem">
+                <div class="contactItem__k">所在地</div>
+                <div class="contactItem__v">愛媛県 新居浜市 大島</div>
+              </div>
+              <div class="contactItem">
+                <div class="contactItem__k">SNS</div>
+                <div class="contactItem__v">
+                  <a href="#" aria-label="Instagram">Instagram</a> ・
+                  <a href="#" aria-label="X">X</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" onsubmit="return false;">
+            <label>
+              お名前
+              <input type="text" placeholder="例：西条農業高校 〇〇" />
+            </label>
+            <label>
+              ご用件
+              <select>
+                <option>取材の相談</option>
+                <option>商品開発・連携</option>
+                <option>購入・販売について</option>
+                <option>その他</option>
+              </select>
+            </label>
+            <label>
+              メッセージ
+              <textarea rows="4" placeholder="内容をご記入ください"></textarea>
+            </label>
+            <button class="btn btn--primary btn--block" type="submit">送信（※デモ）</button>
+            <p class="muted small">※フォーム送信はデモです。実運用はGoogleフォーム等に差し替え可能。</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> 七福芋 Project</p>
+      <a href="#top" class="toTop">▲ Top</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
